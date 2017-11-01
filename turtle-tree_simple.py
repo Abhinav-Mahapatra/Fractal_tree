@@ -1,4 +1,8 @@
-#do a pip install turtle if you havent downlaoded turtle module in python libraries
+#Author : Abhinav Mahapatra
+#Date: 11/1/2017
+
+
+#Do a pip install turtle if you havent downlaoded turtle module in python libraries
 import turtle
 
 #initializing turtle
