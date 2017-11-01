@@ -1,8 +1,12 @@
+#do a pip install turtle if you havent downlaoded turtle module in python libraries
 import turtle
 
+#initializing turtle
 t = turtle.Turtle()
+#initializing the screen
 myWin = turtle.Screen()
 
+#defining the tree fractal funtion
 def tree(length = 100):
 
     if length < 1:
@@ -19,5 +23,6 @@ def tree(length = 100):
 t.right(-90)
 tree()
 
+#closing the turtle screen
 turtle.done()
 myWin.exitonclick()
