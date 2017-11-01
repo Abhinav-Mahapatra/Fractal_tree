@@ -10,7 +10,7 @@ t = turtle.Turtle()
 #initializing the screen
 myWin = turtle.Screen()
 
-#defining the tree fractal funtion
+#defining the tree fractal function
 def tree(length = 100):
 
     if length < 1:
